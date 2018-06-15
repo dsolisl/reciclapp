@@ -1,10 +1,8 @@
 var correo = "";
 
 function loadPage(href){
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", href, false);
-    xmlhttp.send();
-    return xmlhttp.responseText;
+    window.location = href;
+    return false;
 }
 
 function validar() {
@@ -22,7 +20,7 @@ function validar() {
         loadPage('mapaT.html');
     }
     else {
-        loadPage('mapaU.html');     
+        loadPage('solicitud.html');     
     }
 
 
