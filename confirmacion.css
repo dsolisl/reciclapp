@@ -36,6 +36,12 @@ body h2{
     box-shadow: 9px 6px 42px -10px rgba(0,0,0,0.75);    
     border: none;   
     text-align: center; 
+    font-size: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
 a{
@@ -47,4 +53,8 @@ a{
     margin: auto;
     color: white;
     text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }

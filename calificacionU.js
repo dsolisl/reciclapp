@@ -75,16 +75,17 @@ function iflow(){
     if(rating.value<4){
         resultado += "<div><h2>¿Cuál fue el problema?</h2></div>";
         resultado += "<div class='col-12'><center><select class='selector'>"
-        resultado += "<option value='1'>Impuntualidad del socio</option>"
-        resultado += "<option value='2'>Desacuerdo en el peso del material</option>"
-        resultado += "<option value='3'>Mal servicio/actitud</option>"
-        resultado += "<option value='4'>otro</option>"
+        resultado += "<option value='1'> </option>"
+        resultado += "<option value='2'>Impuntualidad del socio</option>"
+        resultado += "<option value='3'>Desacuerdo en el peso del material</option>"
+        resultado += "<option value='4'>Mal servicio/actitud</option>"
+        resultado += "<option value='5'>otro</option>"
         resultado += "</select></center>"
         resultado += "</div>"   
         
         document.getElementById("resultado").innerHTML = resultado;
     }
     else{
-        console.log("canta") 
+        console.log("Altacalificación") 
     }
 }
